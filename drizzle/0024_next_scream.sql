@@ -1,0 +1,2 @@
+ALTER TABLE "form_submissions" DROP CONSTRAINT "form_submissions_name_phone_name_form_id_unique";--> statement-breakpoint
+ALTER TABLE "form_submissions" ADD CONSTRAINT "form_submissions_name_phone_email_form_id_unique" UNIQUE("name","phone","email","form_id");

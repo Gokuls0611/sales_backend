@@ -1,0 +1,1 @@
+ALTER TABLE "evt_assetes" ADD COLUMN "name" varchar;

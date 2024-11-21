@@ -1,0 +1,1 @@
+ALTER TABLE "evt_assetes" ADD COLUMN "category_allowed" varchar DEFAULT 'faculty';

@@ -1,0 +1,1 @@
+ALTER TABLE "sub_event" ADD COLUMN "sub_events" json DEFAULT '["b066f5aa-a722-4a3a-8f9c-e8feeed83be6"]'::json;

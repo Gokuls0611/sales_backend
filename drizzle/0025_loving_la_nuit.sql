@@ -1,0 +1,1 @@
+ALTER TABLE "fields" ADD CONSTRAINT "fields_form_id_heading_field_type_unique" UNIQUE("form_id","heading","field_type");

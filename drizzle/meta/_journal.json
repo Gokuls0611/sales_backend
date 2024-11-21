@@ -1,0 +1,293 @@
+{
+  "version": "7",
+  "dialect": "postgresql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "7",
+      "when": 1725343105177,
+      "tag": "0000_lean_tigra",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1725522699014,
+      "tag": "0001_flimsy_red_hulk",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1726035561297,
+      "tag": "0002_worried_leper_queen",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 1726198068248,
+      "tag": "0003_happy_tomas",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "7",
+      "when": 1726551315390,
+      "tag": "0004_material_bloodscream",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "7",
+      "when": 1726554051894,
+      "tag": "0005_clear_miss_america",
+      "breakpoints": true
+    },
+    {
+      "idx": 6,
+      "version": "7",
+      "when": 1726557441401,
+      "tag": "0006_sad_mother_askani",
+      "breakpoints": true
+    },
+    {
+      "idx": 7,
+      "version": "7",
+      "when": 1727071692726,
+      "tag": "0007_tricky_frightful_four",
+      "breakpoints": true
+    },
+    {
+      "idx": 8,
+      "version": "7",
+      "when": 1727332629273,
+      "tag": "0008_eager_harpoon",
+      "breakpoints": true
+    },
+    {
+      "idx": 9,
+      "version": "7",
+      "when": 1727332729748,
+      "tag": "0009_hot_cerebro",
+      "breakpoints": true
+    },
+    {
+      "idx": 10,
+      "version": "7",
+      "when": 1727333262098,
+      "tag": "0010_hesitant_lightspeed",
+      "breakpoints": true
+    },
+    {
+      "idx": 11,
+      "version": "7",
+      "when": 1727940946948,
+      "tag": "0011_hesitant_gambit",
+      "breakpoints": true
+    },
+    {
+      "idx": 12,
+      "version": "7",
+      "when": 1727949939349,
+      "tag": "0012_right_annihilus",
+      "breakpoints": true
+    },
+    {
+      "idx": 13,
+      "version": "7",
+      "when": 1728219053294,
+      "tag": "0013_absent_magdalene",
+      "breakpoints": true
+    },
+    {
+      "idx": 14,
+      "version": "7",
+      "when": 1728219156443,
+      "tag": "0014_ambiguous_vengeance",
+      "breakpoints": true
+    },
+    {
+      "idx": 15,
+      "version": "7",
+      "when": 1728284369682,
+      "tag": "0015_plain_starjammers",
+      "breakpoints": true
+    },
+    {
+      "idx": 16,
+      "version": "7",
+      "when": 1728284422374,
+      "tag": "0016_eminent_magdalene",
+      "breakpoints": true
+    },
+    {
+      "idx": 17,
+      "version": "7",
+      "when": 1728284483948,
+      "tag": "0017_safe_living_mummy",
+      "breakpoints": true
+    },
+    {
+      "idx": 18,
+      "version": "7",
+      "when": 1728370089669,
+      "tag": "0018_typical_marvex",
+      "breakpoints": true
+    },
+    {
+      "idx": 19,
+      "version": "7",
+      "when": 1728373664114,
+      "tag": "0019_rare_may_parker",
+      "breakpoints": true
+    },
+    {
+      "idx": 20,
+      "version": "7",
+      "when": 1728374216039,
+      "tag": "0020_nappy_prodigy",
+      "breakpoints": true
+    },
+    {
+      "idx": 21,
+      "version": "7",
+      "when": 1728455761985,
+      "tag": "0021_wise_reaper",
+      "breakpoints": true
+    },
+    {
+      "idx": 22,
+      "version": "7",
+      "when": 1728458464657,
+      "tag": "0022_elite_loki",
+      "breakpoints": true
+    },
+    {
+      "idx": 23,
+      "version": "7",
+      "when": 1728459979704,
+      "tag": "0023_modern_black_cat",
+      "breakpoints": true
+    },
+    {
+      "idx": 24,
+      "version": "7",
+      "when": 1728460302969,
+      "tag": "0024_next_scream",
+      "breakpoints": true
+    },
+    {
+      "idx": 25,
+      "version": "7",
+      "when": 1728470626825,
+      "tag": "0025_loving_la_nuit",
+      "breakpoints": true
+    },
+    {
+      "idx": 26,
+      "version": "7",
+      "when": 1729090580523,
+      "tag": "0026_good_nova",
+      "breakpoints": true
+    },
+    {
+      "idx": 27,
+      "version": "7",
+      "when": 1729344051101,
+      "tag": "0027_military_the_leader",
+      "breakpoints": true
+    },
+    {
+      "idx": 28,
+      "version": "7",
+      "when": 1729344110864,
+      "tag": "0028_lyrical_serpent_society",
+      "breakpoints": true
+    },
+    {
+      "idx": 29,
+      "version": "7",
+      "when": 1729687869667,
+      "tag": "0029_curious_blacklash",
+      "breakpoints": true
+    },
+    {
+      "idx": 30,
+      "version": "7",
+      "when": 1732024895292,
+      "tag": "0030_moaning_payback",
+      "breakpoints": true
+    },
+    {
+      "idx": 31,
+      "version": "7",
+      "when": 1732025869134,
+      "tag": "0031_acoustic_captain_britain",
+      "breakpoints": true
+    },
+    {
+      "idx": 32,
+      "version": "7",
+      "when": 1732025951049,
+      "tag": "0032_stiff_omega_sentinel",
+      "breakpoints": true
+    },
+    {
+      "idx": 33,
+      "version": "7",
+      "when": 1732026108833,
+      "tag": "0033_needy_metal_master",
+      "breakpoints": true
+    },
+    {
+      "idx": 34,
+      "version": "7",
+      "when": 1732026138516,
+      "tag": "0034_living_wild_child",
+      "breakpoints": true
+    },
+    {
+      "idx": 35,
+      "version": "7",
+      "when": 1732026213802,
+      "tag": "0035_square_lake",
+      "breakpoints": true
+    },
+    {
+      "idx": 36,
+      "version": "7",
+      "when": 1732026646415,
+      "tag": "0036_wooden_wolfpack",
+      "breakpoints": true
+    },
+    {
+      "idx": 37,
+      "version": "7",
+      "when": 1732026737971,
+      "tag": "0037_friendly_amphibian",
+      "breakpoints": true
+    },
+    {
+      "idx": 38,
+      "version": "7",
+      "when": 1732073506592,
+      "tag": "0038_magenta_crystal",
+      "breakpoints": true
+    },
+    {
+      "idx": 39,
+      "version": "7",
+      "when": 1732074458490,
+      "tag": "0039_bouncy_psylocke",
+      "breakpoints": true
+    },
+    {
+      "idx": 40,
+      "version": "7",
+      "when": 1732124815101,
+      "tag": "0040_last_vengeance",
+      "breakpoints": true
+    }
+  ]
+}
