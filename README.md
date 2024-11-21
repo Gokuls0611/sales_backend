@@ -19,3 +19,11 @@
    ```bash
    npm run generate && npm run push
    ```
+4. Create master using postman
+   ```bash
+   http://localhost:3000/api/auth/createmaster
+   ```
+5. Add Products using postman
+   ```bash
+   http://localhost:3000/api/products/addproducts
+   ```
