@@ -100,3 +100,13 @@ export const updateUser = asyncHandler(async (req: Request, res: Response) => {
 	)
 	
 })
+
+
+export const createMaster = asyncHandler(async (_req: Request, res: Response) => {
+	try{
+		const id = await s.createUser("MASTER", "master", "master@gmail.com","1234567890", "master")
+		res.status(201).json(new ApiResponse(200,"Master Created",id))
+	}catch(error: any){
+		throw new ApiError(400,error)
+	}
+})

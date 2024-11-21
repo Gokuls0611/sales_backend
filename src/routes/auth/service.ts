@@ -50,8 +50,7 @@ export const checkUserExists = async (email: string) => {
 	}
 	return result[0];
 };
-export const createUser = async (
-	username: string, password: string, email: string, phone: string , userrole : TUserRole) => {
+export const createUser = async (username: string, password: string, email: string, phone: string , userrole : TUserRole) => {
 	const pass = password ? password : username; 
 	const hashedPassword = await hashPassword(pass)
 	return await db.insert(user).values({

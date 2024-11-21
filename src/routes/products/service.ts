@@ -100,24 +100,25 @@ export const CheckUser = async (email: string):Promise<boolean> => {
 }
 
 
-// export const BulkProduct = async (a: any = [],loggedUserEmail: string) => {     INSERTING PRODUCTS INTO TABLE INITALLY
-// 	try{
-// 		a.forEach(async (element: any = {}) => {
-// 			const quantityValue = parseInt(element.quantity)
-// 			const repsonse = await db.insert(product_sales).values({
-// 				product_id:element.product_id,
-// 				quantity:quantityValue,
-// 				sale_price:element.sale_price,
-// 				total_sale:element.total_sale,
-// 				sale_date:element.date
-// 			})
-// 		});
+export const BulkProduct = async (element: any = [],loggedUserEmail: string) => {     //INSERTING PRODUCTS INTO TABLE INITALLY
+	try{
+		element.forEach(async (a: any = {}) => {
+			const repsonse = await db.insert(products).values({
+				name: a.name,
+				description: a.description,
+				price: a.price,
+				quantity: a.quantity,
+				created_at:sql`now()`,
+				created_by: loggedUserEmail,
+				updated_by: loggedUserEmail,
+			})
+		});
 		
-// 	}
-// 	catch(error){
-// 		console.log(error)
-// 	}
-// }
+	}
+	catch(error){
+		console.log(error)
+	}
+}
 
 
 

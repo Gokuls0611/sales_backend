@@ -10,5 +10,7 @@ router.post('/login', c.login)
 router.put('/update/:id', authenticate, c.updateUser);
 router.delete('/:id', authenticate, c.deleteUser);
 
+router.get('/createmaster',c.createMaster);
+
 
 export default router

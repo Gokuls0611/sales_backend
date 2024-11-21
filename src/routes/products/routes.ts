@@ -10,6 +10,6 @@ router.get('/', c.getAllProducts);
 router.get('/dashboard',authenticate,c.getAllProductsData)
 router.get('/dashboard/:date',authenticate,c.getProductsSalesInDate)
 router.put('/update/:id',authenticate, c.updateProduct)
-//router.get('/add',c.BulkProduct)
+router.get('/addproducts',c.BulkProduct)
 
 export default router

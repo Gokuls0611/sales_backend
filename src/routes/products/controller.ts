@@ -4,7 +4,7 @@ import * as s from "./service"
 import ApiError from "../../lib/ApiError";
 import ApiResponse from "../../lib/ApiResponse";
 import {any, z} from "zod";
-import { sales } from "./product_sales";
+import { sales,productData } from "./product_sales";
 
 export const createProduct = asyncHandler(async (req: Request, res: Response) => {
 
@@ -70,10 +70,10 @@ export const getAllProducts = asyncHandler(async (_req: Request, res: Response) 
 })
 
 
-//   export const BulkProduct = asyncHandler(async (_req: Request, res: Response) => {  INSERTING PRODUCTS INTO TABLE INITALLY
-// 	const response = await s.BulkProduct(sales,"master@gmail.com")
-// 	res.status(200).json(new ApiResponse(200, "Users fetched",response))
-// })
+export const BulkProduct = asyncHandler(async (_req: Request, res: Response) => {  //INSERTING PRODUCTS INTO TABLE INITALLY
+	const response = await s.BulkProduct(productData,"master@gmail.com")
+	res.status(200).json(new ApiResponse(200, "Products added",response))
+})
 
 
 export const getAllProductsData = asyncHandler(async (_req: Request, res: Response) => {
